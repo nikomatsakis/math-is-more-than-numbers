@@ -2,7 +2,9 @@ class: center
 name: title
 count: false
 
-# Math is more than numbers
+# Math
+
+![You and me forever](./images/math-you-me-forever.gif)
 
 .me[.grey[*by* **Nicholas Matsakis**]]
 .left[.citation[View slides at `https://nikomatsakis.github.io/math-is-more-than-numbers/`]]
@@ -94,9 +96,9 @@ It's kind of hard to tell.
 
 # Answer: equations
 
-* Write $(K) for a kid
-* Write $(C) for a kind of candy
-* Then we can write a predicate $(K\:likes\:C)
+* Write $(K)$ for a kid
+* Write $(C)$ for a kind of candy
+* Then we can write a predicate $(K\:likes\:C)$
 
 A **predicate** is something that can be *true* or *false*
 
@@ -130,11 +132,11 @@ $$\forall K:Kid. \forall C:Candy. K\:likes\:C$$
 
 What does it mean?
 
-"For any kid $(K)
+"For any kid $(K)$
 
-and any kind of candy $(C)
+and any kind of candy $(C)$
 
-the kid $(K) likes the candy $(C)"
+the kid $(K)$ likes the candy $(C)$"
 
 **So, what would it take to make this true?**
 
@@ -148,11 +150,11 @@ $$\exists K:Kid. \exists C:Candy. K\:likes\:C$$
 
 What does it mean?
 
-"There exists some kid $(K)
+"There exists some kid $(K)$
 
-and some kind of candy $(C)
+and some kind of candy $(C)$
 
-such that the kid $(K) likes the candy $(C)"
+such that the kid $(K)$ likes the candy $(C)$"
 
 **So, what would it take to make this true?**
 
@@ -168,11 +170,11 @@ $$\forall K:Kid. \exists C:Candy. K\:likes\:C$$
 
 What does it mean?
 
-"For any kid $(K)
+"For any kid $(K)$
 
-there is some kind of candy $(C)
+there is some kind of candy $(C)$
 
-such that the kid $(K) likes the candy $(C)"
+such that the kid $(K)$ likes the candy $(C)$"
 
 ---
 
@@ -226,156 +228,129 @@ Indian logic in particular influenced a lot of what we are describing here.
 
 # Back to Aristotle
 
+.p20[![Aristotle](./images/Aristotle.jpg)]
 
-<div style="float: right; margin-left: 2em; width: 200px;">
-    <img src="./images/Aristotle.jpg" alt="Chrysippus" style="width: 100%;">
-    <span class="small">Aristotle (384BC - 322BC)</span>
+.abspos.top225.left210[.speech-bubble.alan.left["So what<br>*is* true?"]]
+
+* Aristotle is a person
+* All people are mortal
+* Therefore Aristotle is...?
+
+---
+
+# Imagine...
+
+
+<div style="float: right; margin-left: 2em; width: 400px;">
+    <img src="./images/Guard-in-greece.jpg" alt="Guard in Greece" style="width: 100%;">
+    "I caught him!"
 </div>
 
-What is true?
+* The thief had red hair
+* This person has red hair
+* Therefore... this person is the thief?
+
+Is this a valid conclusion?
+
+Why or why not?
 
 ---
 
-# Aristotelian logic
+# Or perhaps
 
-* Every $(P) predicate can be either **true** or **false**
-    * It must be one or the other; and it cannot be both
-* We can combine to make bigger predicates
+* Licorice is a candy
+* All kids like candy
+* Therefore... all kids like licorice!
 
-| Notation | Meaning |
-| --- | --- |
-| $(P \wedge Q)      | **$(P) *and* $(Q)** are both true |
-| $(P \vee Q)        | **$(P) *or* $(Q)** is true (or both!) |
-| $(\neg P)          | **not $(P)**, true if $(P) is false |
-| $(P \Rightarrow Q) | **$(P) implies $(Q)**, meaning if $(P) is true, $(Q) is true |
-| $(\forall X. P)    | $(P) is true for any $(X) |
-| $(\exists X. P)    | $(P) is true for least one $(X) |
+Where does it go wrong?
+
+---
+
+# This is hard
+
+.p20[![Aristotle](./images/Aristotle.jpg)]
+
+.abspos.top225.left210[.speech-bubble.alan.left["Is *anything* <br> really *true*?"]]
+
+---
+
+# Remember this?
+
+Math is two things
+
+* Speaking precisely and unambiguously
+* **Abstraction**
+
+---
+
+# Abstraction
+
+Abstraction = ignoring irrelevant details
+
+What's irrelevant? Well, that depends.
+
+--
+
+* Licorice is a candy -- well, what *is* a candy?
+
+--
+
+* This classroom has walls -- does it?
+
+---
+
+# Heisenberg's uncertainty principle
+
+The more precisely you know...
+
+* how fast something is going
+
+...the less precisely you know...
+
+* where that thing is.
 
 .footnote[
-    Aristotle had all or most of these concepts, but the notation
-    and other details were developed later.
+    Go ask Mr. Sharp.
 ]
+
+---
+
+# And yet...
+
+.p20[![Aristotle](./images/Aristotle.jpg)]
+
+.abspos.top225.left230[.speech-bubble.alan.left[
+"This makes my head hurt.
+
+Let's make the problem simpler."
+]]
+
 ---
 
 # Aristotelian logic
 
-| Statement | Math |
-| --------- | ---- |
-| Socrates is a person | $(S) |
-| All people are mortal | $(\forall P: Person. P\:is\:mortal) |
-| Socretes is mortal | $(S\:is\:mortal) |
-
+* Every predicate $(P)$ is either **true** or **false**
+* Predicates can be
+    * a base fact (*sugar is sweet*)
+    * or a **combination** of facts made with an **operator**
 
 ---
 
-# Let's see some simple examples
+# Combination with an operator...?
 
-What are these?
+In math so far you've learned
 
-* *Licorice is candy*
-* *Licorice is black*
-* *Licorice has sugar*
-
-???
-
-Predicates (give candy)
+* **numbers** $((1, 2))$
+* **combinations** of numbers $((1 + 2))$ made with **operators** like $(+)$
 
 ---
 
-# Are these *true*?
+# Combination with an operator...?
 
-And are they *true*?
+What if we did that with **predicates**
 
-* *Licorice is candy*
-* *Licorice is black*
-* *Licorice has sugar*
+* a **predicate** like *sugar is sweet* or *licorice is candy*
+* **combinations** of predicates like 
+    * $(P)$ **and** $(Q)$: true if $(P)$ and $(Q)$ are both true
+    * $(P)$ **or** $(Q)$: true if either $(P)$ or $(Q)$ is true
 
----
-
-# Let's see some simple examples
-
-What are these?
-
-* *Licorice is candy* and *Licorice is black*
-* *Licorice is candy* and *Licorice is black*
-
-How would we write it in Aristotelian notation
-
-* $(P) = (*Licorice is candy*)
-* $(Q) = (*Licorice is black*)
-* $(P \wedge Q) = (*Licorice is candy* and *Licorice is black*)
-* $(P \vee Q) = (*Licorice is candy* and *Licorice is black*)
-
----
-
-# Truth tables
-
-| $(P)  | $(Q)  | $(P \wedge Q) |
-| ----  | ----  | ------------- |
-| true  | true  | true          |
-| false | true  | false          |
-| true  | false | false          |
-| false | false | false          |
-
----
-
-# Truth tables
-
-| $(P)  | $(Q)  | $(P \wedge Q)  | $(P \vee Q) |
-| ----  | ----  | -------------  | ----------- |
-| true  | true  | true           | true        |
-| false | true  | false          | true        |
-| true  | false | false          | true        |
-| false | false | false          | false       |
-
-* $(P) = (*Licorice is candy*) = *true*
-* $(Q) = (*Licorice is black*) = *false*
-* $(P \wedge Q) = ?
-* $(P \vee Q) = ?
-
----
-
-# Back to Aristotle's original question
-
-* All people are mortal
-* Socrates is a person
-* therefore...?
-
----
-
-# Implication
-
-We need something else
-
-$$P \Rightarrow Q$$
-
-$(P) "implies" $(Q) *If $(P) is true, $(Q) is true*.
-
----
-
-# Implication as a truth table
-
-| $(P)  | $(Q)  | $(P \wedge Q)  | $(P \vee Q) | $(P \Rightarrow Q) |
-| ----  | ----  | -------------  | ----------- | ------------------ |
-| true  | true  | true           | true        | true               |
-| false | true  | false          | true        | true               |
-| true  | false | false          | true        | false              |
-| false | false | false          | false       | true               |
-
----
-
-# Back to Aristotle's original question
-
-* $(P) = All people are mortal
-* $(Q) = Socrates is a person
-* $(P \Rightarrow Q)
-
-What do you think?
-
----
-
-# We can do a bit better
-
-**All people are mortal**
-
-$$\forall P:Person. P\:is\:mortal$$
