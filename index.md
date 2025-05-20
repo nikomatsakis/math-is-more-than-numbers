@@ -542,9 +542,8 @@ Then
 
 * **You** are **awesome**
 
----
+.p60[.abspos.left500.top350[![Cringy](./images/cringy.gif)]]
 
-![Cringy](./images/cringy.gif)
 
 ---
 
