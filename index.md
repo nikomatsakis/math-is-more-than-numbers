@@ -39,12 +39,12 @@ In fact, math can be **philosophy** -- or anything at all.
 
 Math is two things
 
-* Speaking precisely and unambiguously
+* Precision
 * Abstraction
 
 ---
 
-# Precisely and unambiguously
+# Precision
 
 --
 
@@ -52,7 +52,7 @@ Math is two things
 
 ---
 
-# Precisely and unambiguously
+# Precision
 
 Is this true?
 
@@ -146,6 +146,22 @@ How do you know?
 
 ---
 
+# Proving things false
+
+Given a predicate like
+
+$$\forall K:Kid. \forall C:Candy. K\:likes\:C$$
+
+I can prove it false via counterexample:
+
+* Can you give me a kid $(K)$
+* and some candy $(C)$ 
+* where the kid $(K)$ doesn't like the candy $(C)$?
+
+Then this predicate must be false.
+
+---
+
 # "There exists"
 
 Here is a predicate
@@ -161,6 +177,20 @@ and some kind of candy $(C)$
 such that the kid $(K)$ likes the candy $(C)$"
 
 **So, what would it take to make this true?**
+
+---
+
+# Proving things true
+
+Given a predicate like
+
+$$\forall K:Kid. \forall C:Candy. K\:likes\:C$$
+
+I can prove it true by an example:
+
+* Can you give me a kid $(K)$
+* and some candy $(C)$ 
+* where the kid $(K)$ likes the candy $(C)$?
 
 ---
 
@@ -182,29 +212,51 @@ such that the kid $(K)$ likes the candy $(C)$"
 
 ---
 
-# What does this mean?
+# Proving true or false
 
-Here is a predicate
+OK, so, given this predicate
 
-$$\exists K:Kid. \forall C:Candy. K\:likes\:C$$
+$$\forall K:Kid. \exists C:Candy. K\:likes\:C$$
 
----
+* What does it mean?
+* How could I prove it to be **false**?
+* How could you prove it to be **true**?
 
-# How do you know what is *true*?
+--
 
-Go back to this one...
-
-$$\forall K:Kid. \forall C:Candy. K\:likes\:C$$
-
-...how did we know it is *false*?
+* Could you modify it to be something you can prove true?
 
 ???
 
-Idea: counterexample
+Idea: for any kid in the classroom.
 
 ---
 
-# Philosophy
+# What does this mean?
+
+Here is one last predicate, this is a fun one
+
+$$\exists K:Kid. \forall C:Candy. K\:likes\:C$$
+
+Who can explain to me what *this* means?
+
+---
+
+# Math meets philosophy
+
+--
+
+![Simple complicated](./images/math-simple-complex.jpg)
+
+---
+
+# Math meets philosophy
+
+![What is true](./images/math-simple-true.jpg)
+
+---
+
+# It all started with Aristotle...
 
 <div style="float: right; margin-left: 2em; width: 200px;">
     <img src="./images/Aristotle.jpg" alt="Chrysippus" style="width: 100%;">
@@ -242,8 +294,17 @@ Indian logic in particular influenced a lot of what we are describing here.
 
 ---
 
-# Imagine...
+# Or perhaps
 
+* Licorice is a candy
+* All kids like candy
+* Therefore... all kids like licorice!
+
+Where does it go wrong?
+
+---
+
+# Imagine...
 
 <div style="float: right; margin-left: 2em; width: 400px;">
     <img src="./images/Guard-in-greece.jpg" alt="Guard in Greece" style="width: 100%;">
@@ -260,16 +321,6 @@ Why or why not?
 
 ---
 
-# Or perhaps
-
-* Licorice is a candy
-* All kids like candy
-* Therefore... all kids like licorice!
-
-Where does it go wrong?
-
----
-
 # This is hard
 
 .p20[![Aristotle](./images/Aristotle.jpg)]
@@ -282,7 +333,7 @@ Where does it go wrong?
 
 Math is two things
 
-* Speaking precisely and unambiguously
+* Precision
 * **Abstraction**
 
 ---
@@ -312,6 +363,13 @@ The more precisely you know...
 ...the less precisely you know...
 
 * where that thing is.
+
+---
+
+# Atoms and electrons
+
+![Atom](./images/US_AEC_logo.jpg)
+
 ---
 
 # Quantum superposition
@@ -372,7 +430,7 @@ What if we did that with **predicates**
 
 Two predicates:
 
-* $(A)$ = $(sugar\:is\:sweet)$
+* $(A)$ = sugar is sweet
 * $(B)$ = all kids like all candy
 * $(C)$ = all kids like some candy
 
@@ -408,36 +466,100 @@ In logic we have...
 
 ---
 
-# So then we can make patterns
+# So then we can make patterns or rules
 
-<div style="display: flex; gap: 2em;">
-    <div style="flex: 1;">
-        <p>If</p>
-        <ul>
-            <li>every $(X)$ is $(Y)$ <em>and</em></li>
-            <li>$(Z)$ is an $(X)$</li>
-        </ul>
-        <p>then</p>
-        <ul>
-            <li>$(Z)$ is $(Y)$</li>
-        </ul>
-    </div>
-    <div style="flex: 1;">
-        <p>If $(X = \text{person})$, $(Y = \text{mortal})$, and $(Z = \text{Socrates})$, then...</p>
-        <ul>
-            <li>every <strong>person</strong> is <strong>mortal</strong> <em>and</em></li>
-            <li><strong>Socrates</strong> is a <strong>person</strong></li>
-        </ul>
-        <p>then</p>
-        <ul>
-            <li><strong>Socrates</strong> is <strong>mortal</strong></li>
-        </ul>
-    </div>
-</div>
+If
 
-Or written in more mathematical notation
+* Every **person** is **mortal**
+* **Socrates** is a **person**
 
-$$\forall X, Y, Z. (X\:is\:Y \wedge Z\:is\:X) \Rightarrow Z\:is\:Y$$
+Then
+
+* **Socrates** is **mortal**
+
+---
+
+# It doesn't always have to be PERSON
+
+If
+
+* Every **X** is **mortal**
+* **Socrates** is a **X**
+
+Then
+
+* **Socrates** is **mortal**
+
+---
+
+# It doesn't always have to be MORTAL
+
+If
+
+* Every **X** is **Y**
+* **Socrates** is a **X**
+
+Then
+
+* **Socrates** is **Y**
+
+---
+
+# It doesn't always have to be SOCRATES
+
+If
+
+* Every **X** is **Y**
+* **Z** is a **X**
+
+Then
+
+* **Z** is **Y**
+
+---
+
+# We can use this for all kinds of stuff
+
+If
+
+* Every **liquid** is **wet**
+* **Water** is a **liquid**
+
+Then
+
+* **Water** is **wet**
+
+---
+
+# We can use this for all kinds of stuff
+
+If
+
+* Every **kid in Somerville** is **awesome**
+* **You** are a **kid in Somerville**
+
+Then
+
+* **You** are **awesome**
+
+---
+
+![Cringy](./images/cringy.gif)
+
+---
+
+# But wait
+
+If
+
+* Every **candy** is **yummy**
+* **Black licorice** is a **candy**
+
+Then
+
+* **Black licorice** is **yummy**
+
+Hmm, what's wrong here?
 
 ---
 
@@ -447,7 +569,10 @@ $$\forall X, Y, Z. (X\:is\:Y \wedge Z\:is\:X) \Rightarrow Z\:is\:Y$$
 
 In the real world, this is usually **too simple**.
 
-What about a statement like "it is daytime". That is not true *or* false, right?
+A statement like **candy is yummy** is not really true or false, right?
+The answer is more like, "it depends".
+
+--
 
 What about "red delicious apples are red". Is that a predicate that is true?
 
