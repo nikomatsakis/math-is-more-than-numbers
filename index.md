@@ -174,17 +174,70 @@ there is some kind of candy $(C)
 
 such that the kid $(K) likes the candy $(C)"
 
-In other words, how would you say this in "plain English"?
+---
+
+# What does this mean?
+
+Here is a predicate
+
+$$\exists K:Kid. \forall C:Candy. K\:likes\:C$$
 
 ---
 
-# vs English
+# How do you know what is *true*?
 
-Compare
+Go back to this one...
 
-$$\forall K:Kid. \exists C:Candy. K\:likes\:C$$
+$$\forall K:Kid. \forall C:Candy. K\:likes\:C$$
 
-to "every kid likes some kind of candy".
+...how did we know it is *false*?
 
-What else could this mean?
+???
+
+Idea: counterexample
+
+---
+
+# Philosophy
+
+<div style="float: right; margin-left: 2em; width: 200px;">
+    <img src="./images/Aristotle.jpg" alt="Chrysippus" style="width: 100%;">
+    <span class="small">Aristotle (384BC - 322BC)</span>
+</div>
+
+* Studied under Plato
+* Taught Alexander the Great
+* Developed the idea of analyzing the *structure* of an argument
+
+---
+
+# Logic in other parts of the world
+
+* Logic also developed in [China](https://en.wikipedia.org/wiki/Logic_in_China), where **Mozi** (470 - 391 BC) taught about correct conclusions, but didn't use mathematical reasoning.
+* And in [India](https://en.wikipedia.org/wiki/Logic_in_India), where **Panini** (5th century BC) and the **Nyaya** school (~200 CE) is the closest to what we are discussing here.
+
+Indian logic in particular influenced a lot of what we are describing here.
+
+.footnote[
+    I'm leaving out a *lot* of details. Read the Wikipedia pages!
+]
+
+---
+
+# Aristotelian logic
+
+* All people are mortal
+* Socrates is a person
+* therefore...?
+
+---
+
+# Aristotelian logic
+
+* Every $(P) predicate can be either **true** or **false**
+    * It must be one or the other; and it cannot be both
+* We can combine to make bigger predicates
+    * $(P \wedge Q) -- **$(P) *and* $(Q)** are both true
+    * $(P \vee Q) -- **$(P) *or* $(Q)** is true (or both!)
+    * $(\neg P) -- **not $(P)**, true if $(P) is false
 

@@ -265,6 +265,14 @@ mark,
   width: 40%;
 }
 
+.p20 img {
+  width: 20%;
+}
+
+.p10 img {
+  width: 10%;
+}
+
 .p100 img {
   width: 100%;
   height: auto;
