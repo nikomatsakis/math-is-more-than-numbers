@@ -485,10 +485,16 @@ Deals in probabilities.
 
 ---
 
+# Other kinds of logic
+
+...there are tons more...
+
+---
+
 # In my job...
 
 I work with computers and programming.
 
 We do a lot with logic -- trying to figure out if a program is correct or if it might have problems.
 
-This is very mathematical, but there are **no numbers**.
+This is very mathematical, but there are **no
