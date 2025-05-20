@@ -497,4 +497,4 @@ I work with computers and programming.
 
 We do a lot with logic -- trying to figure out if a program is correct or if it might have problems.
 
-This is very mathematical, but there are **no
+This is very mathematical, but there are **no numbers**
