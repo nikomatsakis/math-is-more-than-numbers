@@ -13,8 +13,6 @@ count: false
 
 # What is math?
 
---
-
 ![Math Baby](./images/math-baby.gif)
 
 ---
@@ -37,7 +35,7 @@ In fact, math can be **philosophy** -- or anything at all.
 
 ---
 
-# I want to convince you...
+# I claim...
 
 Math is two things
 
@@ -138,7 +136,13 @@ and any kind of candy $(C)$
 
 the kid $(K)$ likes the candy $(C)$"
 
-**So, what would it take to make this true?**
+**So, is this true?**
+
+???
+
+No?
+
+How do you know?
 
 ---
 

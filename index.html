@@ -31,10 +31,13 @@
   </script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <script>
-    document.addEventListener('keydown', function () {
+    function triggerMathJaxTypeset() {
       if (window.MathJax && MathJax.typeset) {
         MathJax.typeset();
       }
-    });
+    }
+
+    document.addEventListener('keydown', triggerMathJaxTypeset);
+    document.addEventListener('mousedown', triggerMathJaxTypeset);
   </script>
 </body>
