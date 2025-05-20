@@ -2,7 +2,7 @@ class: center
 name: title
 count: false
 
-# Math
+# Who needs math anyway?
 
 ![You and me forever](./images/math-you-me-forever.gif)
 
