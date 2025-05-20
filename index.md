@@ -445,7 +445,7 @@ In the real world, this is usually **too simple**.
 
 What about a statement like "it is daytime". That is not true *or* false, right?
 
-What about "cherry jolly ranchers are red". Is that a predicate that is true?
+What about "red delicious apples are red". Is that a predicate that is true?
 
 ---
 
