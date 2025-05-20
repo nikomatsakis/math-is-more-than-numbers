@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Talk Title - Nicholas Matsakis</title>
+  <title>Math is more than numbers - Nicholas Matsakis</title>
   <meta charset="utf-8">
   <link href="custom.css" type="text/css" rel="stylesheet">
 </head>
@@ -21,5 +21,20 @@
       highlightLines: true,
     });
     slideshow.on('afterShowSlide', absolution);
+  </script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$(', ')']]
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script>
+    document.addEventListener('keydown', function () {
+      if (window.MathJax && MathJax.typeset) {
+        MathJax.typeset();
+      }
+    });
   </script>
 </body>
