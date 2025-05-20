@@ -434,3 +434,61 @@ In logic we have...
 Or written in more mathematical notation
 
 $$\forall X, Y, Z. (X\:is\:Y \wedge Z\:is\:X) \Rightarrow Z\:is\:Y$$
+
+---
+
+# Other kinds of logic
+
+* Every predicate $(P)$ is either **true** or **false**
+
+In the real world, this is usually **too simple**.
+
+What about a statement like "it is daytime". That is not true *or* false, right?
+
+What about "cherry jolly ranchers are red". Is that a predicate that is true?
+
+---
+
+# Other kinds of logic
+
+**Natural logic:** Some things are neither true *nor* false -- you just don't know.
+
+Example:
+
+Apples are red
+
+---
+
+# Other kinds of logic
+
+**Modal logic:** Some things may not be true *now*, but they become true later -- or they may not.
+
+Deals in **possible futures**.
+
+---
+
+# Other kinds of logic
+
+**Defeasible logic:** Some things are usually true but they can have exceptions.
+
+e.g., all birds fly (but what about penguins)?
+
+We say that the predicate that *penguins don't fly* **defeats** the more general rule that *all birds fly*.
+
+---
+
+# Other kinds of logic
+
+**Fuzzy logic:** Some things are partially true.
+
+Deals in probabilities.
+
+---
+
+# In my job...
+
+I work with computers and programming.
+
+We do a lot with logic -- trying to figure out if a program is correct or if it might have problems.
+
+This is very mathematical, but there are **no numbers**.
