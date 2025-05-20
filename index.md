@@ -224,11 +224,15 @@ Indian logic in particular influenced a lot of what we are describing here.
 
 ---
 
-# Aristotelian logic
+# Back to Aristotle
 
-* All people are mortal
-* Socrates is a person
-* therefore...?
+
+<div style="float: right; margin-left: 2em; width: 200px;">
+    <img src="./images/Aristotle.jpg" alt="Chrysippus" style="width: 100%;">
+    <span class="small">Aristotle (384BC - 322BC)</span>
+</div>
+
+What is true?
 
 ---
 
@@ -240,9 +244,27 @@ Indian logic in particular influenced a lot of what we are describing here.
 
 | Notation | Meaning |
 | --- | --- |
-| $(P \wedge Q) | **$(P) *and* $(Q)** are both true |
-| $(P \vee Q)   | **$(P) *or* $(Q)** is true (or both!) |
-| $(\neg P)     | **not $(P)**, true if $(P) is false |
+| $(P \wedge Q)      | **$(P) *and* $(Q)** are both true |
+| $(P \vee Q)        | **$(P) *or* $(Q)** is true (or both!) |
+| $(\neg P)          | **not $(P)**, true if $(P) is false |
+| $(P \Rightarrow Q) | **$(P) implies $(Q)**, meaning if $(P) is true, $(Q) is true |
+| $(\forall X. P)    | $(P) is true for any $(X) |
+| $(\exists X. P)    | $(P) is true for least one $(X) |
+
+.footnote[
+    Aristotle had all or most of these concepts, but the notation
+    and other details were developed later.
+]
+---
+
+# Aristotelian logic
+
+| Statement | Math |
+| --------- | ---- |
+| Socrates is a person | $(S) |
+| All people are mortal | $(\forall P: Person. P\:is\:mortal) |
+| Socretes is mortal | $(S\:is\:mortal) |
+
 
 ---
 
@@ -268,9 +290,6 @@ And are they *true*?
 * *Licorice is black*
 * *Licorice has sugar*
 
-
-Are they *true*?
-
 ---
 
 # Let's see some simple examples
@@ -285,6 +304,7 @@ How would we write it in Aristotelian notation
 * $(P) = (*Licorice is candy*)
 * $(Q) = (*Licorice is black*)
 * $(P \wedge Q) = (*Licorice is candy* and *Licorice is black*)
+* $(P \vee Q) = (*Licorice is candy* and *Licorice is black*)
 
 ---
 
@@ -312,3 +332,50 @@ How would we write it in Aristotelian notation
 * $(Q) = (*Licorice is black*) = *false*
 * $(P \wedge Q) = ?
 * $(P \vee Q) = ?
+
+---
+
+# Back to Aristotle's original question
+
+* All people are mortal
+* Socrates is a person
+* therefore...?
+
+---
+
+# Implication
+
+We need something else
+
+$$P \Rightarrow Q$$
+
+$(P) "implies" $(Q) *If $(P) is true, $(Q) is true*.
+
+---
+
+# Implication as a truth table
+
+| $(P)  | $(Q)  | $(P \wedge Q)  | $(P \vee Q) | $(P \Rightarrow Q) |
+| ----  | ----  | -------------  | ----------- | ------------------ |
+| true  | true  | true           | true        | true               |
+| false | true  | false          | true        | true               |
+| true  | false | false          | true        | false              |
+| false | false | false          | false       | true               |
+
+---
+
+# Back to Aristotle's original question
+
+* $(P) = All people are mortal
+* $(Q) = Socrates is a person
+* $(P \Rightarrow Q)
+
+What do you think?
+
+---
+
+# We can do a bit better
+
+**All people are mortal**
+
+$$\forall P:Person. P\:is\:mortal$$
