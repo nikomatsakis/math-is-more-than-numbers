@@ -451,7 +451,7 @@ What about "red delicious apples are red". Is that a predicate that is true?
 
 # Other kinds of logic
 
-**Natural logic:** Some things are neither true *nor* false -- you just don't know.
+**Natural logic:** predicates can be true, false, or... "maybe, it depends"
 
 Example:
 
