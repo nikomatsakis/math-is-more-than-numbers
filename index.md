@@ -237,7 +237,78 @@ Indian logic in particular influenced a lot of what we are describing here.
 * Every $(P) predicate can be either **true** or **false**
     * It must be one or the other; and it cannot be both
 * We can combine to make bigger predicates
-    * $(P \wedge Q) -- **$(P) *and* $(Q)** are both true
-    * $(P \vee Q) -- **$(P) *or* $(Q)** is true (or both!)
-    * $(\neg P) -- **not $(P)**, true if $(P) is false
 
+| Notation | Meaning |
+| --- | --- |
+| $(P \wedge Q) | **$(P) *and* $(Q)** are both true |
+| $(P \vee Q)   | **$(P) *or* $(Q)** is true (or both!) |
+| $(\neg P)     | **not $(P)**, true if $(P) is false |
+
+---
+
+# Let's see some simple examples
+
+What are these?
+
+* *Licorice is candy*
+* *Licorice is black*
+* *Licorice has sugar*
+
+???
+
+Predicates (give candy)
+
+---
+
+# Are these *true*?
+
+And are they *true*?
+
+* *Licorice is candy*
+* *Licorice is black*
+* *Licorice has sugar*
+
+
+Are they *true*?
+
+---
+
+# Let's see some simple examples
+
+What are these?
+
+* *Licorice is candy* and *Licorice is black*
+* *Licorice is candy* and *Licorice is black*
+
+How would we write it in Aristotelian notation
+
+* $(P) = (*Licorice is candy*)
+* $(Q) = (*Licorice is black*)
+* $(P \wedge Q) = (*Licorice is candy* and *Licorice is black*)
+
+---
+
+# Truth tables
+
+| $(P)  | $(Q)  | $(P \wedge Q) |
+| ----  | ----  | ------------- |
+| true  | true  | true          |
+| false | true  | false          |
+| true  | false | false          |
+| false | false | false          |
+
+---
+
+# Truth tables
+
+| $(P)  | $(Q)  | $(P \wedge Q)  | $(P \vee Q) |
+| ----  | ----  | -------------  | ----------- |
+| true  | true  | true           | true        |
+| false | true  | false          | true        |
+| true  | false | false          | true        |
+| false | false | false          | false       |
+
+* $(P) = (*Licorice is candy*) = *true*
+* $(Q) = (*Licorice is black*) = *false*
+* $(P \wedge Q) = ?
+* $(P \vee Q) = ?
