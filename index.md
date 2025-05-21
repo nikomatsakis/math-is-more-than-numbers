@@ -389,6 +389,14 @@ What's irrelevant? Well, that depends.
 
 ---
 
+# Numbers are abstractions
+
+* 2 apples + 2 apples = 4 apples
+* 2 oranges + 2 oranges = 4 oranges
+* 2 + 2 = 4
+
+---
+
 # Aristotelian logic
 
 * Every predicate $(P)$ is either **true** or **false**
