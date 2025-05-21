@@ -184,7 +184,7 @@ such that the kid $(K)$ likes the candy $(C)$"
 
 Given a predicate like
 
-$$\forall K:Kid. \forall C:Candy. K\:likes\:C$$
+$$\exists K:Kid. \exists C:Candy. K\:likes\:C$$
 
 I can prove it true by an example:
 
@@ -343,44 +343,6 @@ Math is two things
 Abstraction = ignoring irrelevant details
 
 What's irrelevant? Well, that depends.
-
---
-
-* Licorice is a candy -- well, what *is* a candy?
-
---
-
-* This classroom has walls -- does it?
-
----
-
-# Heisenberg's uncertainty principle
-
-The more precisely you know...
-
-* how fast something is going
-
-...the less precisely you know...
-
-* where that thing is.
-
----
-
-# Atoms and electrons
-
-![Atom](./images/US_AEC_logo.jpg)
-
----
-
-# Quantum superposition
-
-![](./images/superposition.png)
-
----
-
-# And yet
-
-![Walk into wall](./images/walk-into-wall.gif)
 
 ---
 
@@ -592,24 +554,6 @@ Apples are red
 **Modal logic:** Some things may not be true *now*, but they become true later -- or they may not.
 
 Deals in **possible futures**.
-
----
-
-# Other kinds of logic
-
-**Defeasible logic:** Some things are usually true but they can have exceptions.
-
-e.g., all birds fly (but what about penguins)?
-
-We say that the predicate that *penguins don't fly* **defeats** the more general rule that *all birds fly*.
-
----
-
-# Other kinds of logic
-
-**Fuzzy logic:** Some things are partially true.
-
-Deals in probabilities.
 
 ---
 
