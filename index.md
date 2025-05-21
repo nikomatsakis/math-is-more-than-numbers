@@ -321,11 +321,54 @@ Why or why not?
 
 ---
 
-# This is hard
+# This is harder than it seems
+
+.abspos.left50.top80[.p40[![Aristotle](./images/Aristotle.jpg)]]
+
+.abspos.top150.left210[.speech-bubble.alan.left[
+"I want to decide<br>
+what is *true*."
+]]
+
+.abspos.left600.top120[.p40[![Plato](./images/plato.jpg)]]
+
+.abspos.top250.left350[.speech-bubble.barbara.right[
+"Ah, but is *anything*
+<br> really *true*?"
+]]
+
+.abspos.left50.top320[.p40[![Aristotle](./images/Aristotle.jpg)]]
+
+.abspos.top390.left210[.speech-bubble.alan.left[
+"Of course. Red delicious<br>
+apples are red, aren't they?"
+]]
+
+.abspos.left600.top430[.p40[![Plato](./images/plato.jpg)]]
+
+.abspos.top530.left415[.speech-bubble.barbara.right[
+"But *are* they?"
+]]
+
+---
+
+# What do you think?
+
+.p60[![red delicious](./images/red-delicious.jpg)]
+
+Are red delicious apples red?
+
+---
+
+# And yet...
 
 .p20[![Aristotle](./images/Aristotle.jpg)]
 
-.abspos.top225.left210[.speech-bubble.alan.left["Is *anything* <br> really *true*?"]]
+.abspos.top225.left230[.speech-bubble.alan.left[
+"This makes my head hurt.
+
+Let's make the problem simpler."
+]]
 
 ---
 
@@ -343,18 +386,6 @@ Math is two things
 Abstraction = ignoring irrelevant details
 
 What's irrelevant? Well, that depends.
-
----
-
-# And yet...
-
-.p20[![Aristotle](./images/Aristotle.jpg)]
-
-.abspos.top225.left230[.speech-bubble.alan.left[
-"This makes my head hurt.
-
-Let's make the problem simpler."
-]]
 
 ---
 
@@ -469,10 +500,6 @@ In the real world, this is usually **too simple**.
 
 A statement like **candy is yummy** is not really true or false, right?
 The answer is more like, "it depends".
-
---
-
-What about "red delicious apples are red". Is that a predicate that is true?
 
 ---
 
