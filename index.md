@@ -361,74 +361,11 @@ Let's make the problem simpler."
 # Aristotelian logic
 
 * Every predicate $(P)$ is either **true** or **false**
-* Predicates can be
-    * a base fact (*sugar is sweet*)
-    * or a **combination** of facts made with an **operator**
+* Use **variables** like to represent unknown things
 
 ---
 
-# Combination with an operator...?
-
-In math so far you've learned
-
-* **numbers** $((1, 2))$
-* **combinations** of numbers $((1 + 2))$ made with **operators** like $(+)$
-
----
-
-# Combination with an operator...?
-
-What if we did that with **predicates**
-
-* a **predicate** like *sugar is sweet* or *licorice is candy*
-* **combinations** of predicates like 
-    * $(P \wedge Q)$ = $(P)$ **and** $(Q)$ = true if $(P)$ and $(Q)$ are both true
-    * $(P \vee Q)$ = $(P)$ **or** $(Q)$ = true if either $(P)$ or $(Q)$ is true
-    * $(P \Rightarrow Q)$ = $(P)$ **implies** $(Q)$ = if $(P)$ is true, then $(Q)$ must be true
-
----
-
-# Example
-
-Two predicates:
-
-* $(A)$ = sugar is sweet
-* $(B)$ = all kids like all candy
-* $(C)$ = all kids like some candy
-
-What is true?
-
-* is $(A)$ true? $(B)$? $(C)$?
-* what about $(A \wedge B)$ ($(A)$ and $(B)$)?
-* what about $(A \vee B)$ ($(A)$ or $(B)$)?
-* what about $(A \wedge C)$ ($(A)$ and $(C)$)?
-
----
-
-# Add variables
-
-In math so far you've learned
-
-* *numbers* $((1, 2))$
-* *combinations* of numbers $((1 + 2))$ made with *operators* like $(+)$
-* **variables** like $(X)$ that represent an unknown number
-
----
-
-# Add variables
-
-In logic we have...
-
-* a *predicate* like *sugar is sweet* or *licorice is candy*
-* *combinations* of predicates like 
-    * $(P \wedge Q)$ = $(P)$ *and* $(Q)$ = true if $(P)$ and $(Q)$ are both true
-    * $(P \vee Q)$ = $(P)$ *or* $(Q)$ = true if either $(P)$ or $(Q)$ is true
-    * $(P \Rightarrow Q)$ = $(P)$ **implies** $(Q)$ = if $(P)$ is true, then $(Q)$ must be true
-* **variables** like $(X)$ that represent an unknown **thing**
-
----
-
-# So then we can make patterns or rules
+# Patterns for valid kinds of arguments
 
 If
 
