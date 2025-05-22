@@ -96,7 +96,7 @@ It's kind of hard to tell.
 
 * Write $(K)$ for a kid
 * Write $(C)$ for a kind of candy
-* Then we can write a predicate $(K\:likes\:C)$
+* Then we can write a predicate $(K\:\text{likes}\:C)$
 
 A **predicate** is something that can be *true* or *false*
 
@@ -126,7 +126,7 @@ Write, so if K is X, and C is dum-dums, the statement is true. But if C is doubl
 
 Here is a predicate
 
-$$\forall K:Kid. \forall C:Candy. K\:likes\:C$$
+$$\forall K:Kid. \forall C:Candy. K\:\text{likes}\:C$$
 
 What does it mean?
 
@@ -150,7 +150,7 @@ How do you know?
 
 Given a predicate like
 
-$$\forall K:Kid. \forall C:Candy. K\:likes\:C$$
+$$\forall K:Kid. \forall C:Candy. K\:\text{likes}\:C$$
 
 I can prove it false via counterexample:
 
@@ -166,7 +166,7 @@ Then this predicate must be false.
 
 Here is a predicate
 
-$$\exists K:Kid. \exists C:Candy. K\:likes\:C$$
+$$\exists K:Kid. \exists C:Candy. K\:\text{likes}\:C$$
 
 What does it mean?
 
@@ -184,7 +184,7 @@ such that the kid $(K)$ likes the candy $(C)$"
 
 Given a predicate like
 
-$$\exists K:Kid. \exists C:Candy. K\:likes\:C$$
+$$\exists K:Kid. \exists C:Candy. K\:\text{likes}\:C$$
 
 I can prove it true by an example:
 
@@ -198,7 +198,7 @@ I can prove it true by an example:
 
 Here is a predicate
 
-$$\forall K:Kid. \exists C:Candy. K\:likes\:C$$
+$$\forall K:Kid. \exists C:Candy. K\:\text{likes}\:C$$
 
 --
 
@@ -216,7 +216,7 @@ such that the kid $(K)$ likes the candy $(C)$"
 
 OK, so, given this predicate
 
-$$\forall K:Kid. \exists C:Candy. K\:likes\:C$$
+$$\forall K:Kid. \exists C:Candy. K\:\text{likes}\:C$$
 
 * What does it mean?
 * How could I prove it to be **false**?
@@ -236,7 +236,7 @@ Idea: for any kid in the classroom.
 
 Here is one last predicate, this is a fun one
 
-$$\exists K:Kid. \forall C:Candy. K\:likes\:C$$
+$$\exists K:Kid. \forall C:Candy. K\:\text{likes}\:C$$
 
 Who can explain to me what *this* means?
 
@@ -400,7 +400,7 @@ What's irrelevant? Well, that depends.
 # Aristotelian logic
 
 * Every predicate $(P)$ is either **true** or **false**
-* Use **variables** like to represent unknown things
+* Use **variables** like $(X)$ or $(Y)$ to represent unknown things
 
 ---
 
