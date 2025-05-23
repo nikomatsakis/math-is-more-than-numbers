@@ -397,6 +397,14 @@ What's irrelevant? Well, that depends.
 
 ---
 
+# Algebra is abstractions
+
+* $(X \times Y = Y \times X)$
+* $(X \times 0 = 0)$
+* $(X \times (A + B) = X \times A + X \times B)$
+
+---
+
 # Aristotelian logic
 
 * Every predicate $(P)$ is either **true** or **false**
@@ -539,8 +547,11 @@ Deals in **possible futures**.
 
 Aristotle defined several kinds of "logic equations"
 
-* A and B
-* A or B
+| English | Math |
+| ------- | ---- |
+| not A   | $(\neg A)$ |
+| A and B | $(A \wedge B)$ |
+| A or B  | $(A \vee B)$ |
 
 ---
 
@@ -548,6 +559,85 @@ Aristotle defined several kinds of "logic equations"
 
 ![Portrait of George Bool](./images/Portrait_of_George_Boole.png)
 George Bool, 1815-1864
+
+---
+
+# Truth table for AND
+
+| $(A)$ | $(B)$ | $(A \wedge B)$ |
+| ----- | ----- | -------------- |
+| false | false | false          |
+| false | true  | false          |
+| true  | false | false          |
+| true  | true  | true           |
+
+---
+
+# Truth table for OR
+
+| $(A)$ | $(B)$ | $(A \vee B)$   |
+| ----- | ----- | -------------- |
+| false | false | ?              |
+| false | true  | ?              |
+| true  | false | ?              |
+| true  | true  | ?              |
+
+---
+
+# Boole's insight
+
+What if...
+
+* false = 0
+* true = 1
+
+---
+
+# Multiplication table
+
+| $(A)$ | $(B)$ | $(A \times B)$ |
+| ----- | ----- | -------------- |
+| 0     | 0     | 0              |
+| 0     | 1     | 0              |
+| 1     | 0     | 0              |
+| 1     | 1     | 1              |
+
+---
+
+# Addition table
+
+| $(A)$ | $(B)$ | $(A + B)$ |
+| ----- | ----- | -------------- |
+| 0     | 0     | 0              |
+| 0     | 1     | 1              |
+| 1     | 0     | 1              |
+| 1     | 1     | 2              |
+
+---
+
+# Modulo arithmetic
+
+* 9 + 4 = ?
+* 9:00am + 4 hours = ?
+
+---
+
+# Addition table
+
+| $(A)$ | $(B)$ | $(A + B)$ modulo 2 |
+| ----- | ----- | --------------     |
+| 0     | 0     | 0                  |
+| 0     | 1     | 1                  |
+| 1     | 0     | 1                  |
+| 1     | 1     | 1                  |
+
+---
+
+# Rules
+
+$$X \times (Y + Z) = X \times Y + X \times Z$$
+
+Also true for logical predicates!
 
 ---
 
