@@ -535,6 +535,22 @@ Deals in **possible futures**.
 
 ---
 
+# Logic meets numbers
+
+Aristotle defined several kinds of "logic equations"
+
+* A and B
+* A or B
+
+---
+
+# George Boole 
+
+![Portrait of George Bool](./images/Portrait_of_George_Boole.png)
+George Bool, 1815-1864
+
+---
+
 # In my job...
 
 I work with computers and programming.
