@@ -641,6 +641,37 @@ Also true for logical predicates!
 
 ---
 
+# Equivalent
+
+> You can't go to your friend's party if you didn't clean your room AND you left dirty dishes in the sink
+
+So...
+
+* You cleaned your room
+* But not the kitchen
+
+Can you go?
+
+---
+
+# Equivalent
+
+> You can't go to your friend's party if you didn't clean your room AND you left dirty dishes in the sink
+
+*is the same as*
+
+> You can go to the party if you cleaned your room OR you left dirty dishes in the sink
+
+---
+
+# De Morgan's law
+
+$$\neg(P \land Q) = \neg P \lor \neg Q$$
+
+$$\neg(P \lor Q) = \neg P \land \neg Q$$
+
+---
+
 # In my job...
 
 I work with computers and programming.
