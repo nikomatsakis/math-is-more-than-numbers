@@ -574,25 +574,58 @@ George Bool, 1815-1864
 
 ---
 
-# Truth table for OR
+# Truth table for XOR
 
-| $(A)$ | $(B)$ | $(A \vee B)$   |
-| ----- | ----- | -------------- |
-| false | false | ?              |
-| false | true  | ?              |
-| true  | false | ?              |
-| true  | true  | ?              |
+| $(A)$ | $(B)$ | $(A \oplus B)$   |
+| ----- | ----- | --------------   |
+| false | false | ?                |
+| false | true  | ?                |
+| true  | false | ?                |
+| true  | true  | ?                |
 
 ---
 
 # Truth table for XOR
 
-| $(A)$ | $(B)$ | $(A \vee B)$   |
-| ----- | ----- | -------------- |
-| false | false | ?              |
-| false | true  | ?              |
-| true  | false | ?              |
-| true  | true  | ?              |
+| $(A)$ | $(B)$ | $(A \oplus B)$   |
+| ----- | ----- | --------------   |
+| false | false | false            |
+| false | true  | ?                |
+| true  | false | ?                |
+| true  | true  | ?                |
+
+---
+
+# Truth table for XOR
+
+| $(A)$ | $(B)$ | $(A \oplus B)$   |
+| ----- | ----- | --------------   |
+| false | false | false            |
+| false | true  | true             |
+| true  | false | ?                |
+| true  | true  | ?                |
+
+---
+
+# Truth table for XOR
+
+| $(A)$ | $(B)$ | $(A \oplus B)$   |
+| ----- | ----- | --------------   |
+| false | false | false            |
+| false | true  | true             |
+| true  | false | true             |
+| true  | true  | ?                |
+
+---
+
+# Truth table for XOR
+
+| $(A)$ | $(B)$ | $(A \oplus B)$   |
+| ----- | ----- | --------------   |
+| false | false | false            |
+| false | true  | true             |
+| true  | false | true             |
+| true  | true  | false            |
 
 ---
 
@@ -641,7 +674,7 @@ What if...
 | 0     | 0     | 0                  |
 | 0     | 1     | 1                  |
 | 1     | 0     | 1                  |
-| 1     | 1     | 1                  |
+| 1     | 1     | 0                  |
 
 ---
 
