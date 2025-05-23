@@ -552,6 +552,7 @@ Aristotle defined several kinds of "logic equations"
 | not A   | $(\neg A)$ |
 | A and B | $(A \wedge B)$ |
 | A or B  | $(A \vee B)$ |
+| A or B  | $(A \oplus B)$ |
 
 ---
 
@@ -574,6 +575,17 @@ George Bool, 1815-1864
 ---
 
 # Truth table for OR
+
+| $(A)$ | $(B)$ | $(A \vee B)$   |
+| ----- | ----- | -------------- |
+| false | false | ?              |
+| false | true  | ?              |
+| true  | false | ?              |
+| true  | true  | ?              |
+
+---
+
+# Truth table for XOR
 
 | $(A)$ | $(B)$ | $(A \vee B)$   |
 | ----- | ----- | -------------- |
@@ -660,7 +672,7 @@ Can you go?
 
 *is the same as*
 
-> You can go to the party if you cleaned your room OR you left dirty dishes in the sink
+> You can go to the party if you cleaned your room OR you cleaned the kitchen
 
 ---
 
